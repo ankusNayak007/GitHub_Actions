@@ -5,7 +5,7 @@ on:
 
 env:
   DAY_OF_WEEK: Sunday
-  tetvar: value-1
+  testvar: value-1
 
 jobs:
   mainjob:
