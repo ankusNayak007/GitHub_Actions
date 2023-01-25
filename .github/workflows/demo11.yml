@@ -1,0 +1,21 @@
+# i have tried this in my personal account
+
+# name: GitHub Secrets
+
+# on:
+#   workflow_dispatch:
+
+# jobs:
+#   deployment:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Print Secret
+#       run: |
+#         echo "MY_TOP_SECRET: ${{ secrets.MY_TOP_SECRET }}"
+#         echo "i-dont_exists: ${{ secrets.i_dont_exists }}"
+
+#     - name: Print Secret as an environment variable
+#       run: |
+#         echo "AWS_CRED: $AWS_CRED"
+#       env:
+#         AWS_CRED: ${{ secrets.MY_TOP_SECRET }}
