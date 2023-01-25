@@ -1,0 +1,19 @@
+# not added any environment i tried the below thigs in my personal account
+
+# name: GitHub Environments
+
+# on:
+#   workflow_dispatch:
+
+# jobs:
+#   deployment:
+#     runs-on: ubuntu-latest
+
+#     environment:
+#       name: prod
+#       url: https://github.com
+
+#     steps:
+#       - name: 'Print secret from environment'
+#         run: |
+#           echo "APP_SECRET: ${{ secrets.APP_SECRET }}"
