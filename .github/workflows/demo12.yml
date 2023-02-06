@@ -1,0 +1,16 @@
+
+name: create-deployment
+
+on:
+  workflow_dispatch:
+    branches:
+      - 'main'
+  
+jobs:
+  create-deplyment:
+    name: Create deployment for branch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Github deployment for '${{ github.ref_name }}'
+        run: |
+          echo "Name: ${{ github.ref_name }}"
